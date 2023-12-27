@@ -122,6 +122,27 @@
           "name": "шлагбаум",
           "relatedTo": "i-i-s-novoe-prilozhenie-шлагбаум",
           "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Парковка",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": false,
+              "index": 7
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Адрес",
+          "name": "парковка",
+          "relatedTo": "i-i-s-novoe-prilozhenie-парковка",
+          "inverse": null
         }
       ],
       "hasMany": []

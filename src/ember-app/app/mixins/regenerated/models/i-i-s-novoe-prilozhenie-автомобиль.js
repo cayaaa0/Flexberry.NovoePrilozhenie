@@ -36,7 +36,7 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('Автомобиль', 'i-i-s-novoe-prilozhenie-автомобиль', {
     госНомер: attr('Гос номер', { index: 0 }),
     водитель: belongsTo('i-i-s-novoe-prilozhenie-водитель', 'Водитель', {
-      фИО: attr('ФИО', { index: 2, hidden: true })
+      фИО: attr('ФИО', { index: 2 })
     }, { index: 1, displayMemberPath: 'фИО' })
   });
 };

@@ -85,7 +85,7 @@
             {
               "name": "фИО",
               "caption": "ФИО",
-              "hidden": true,
+              "hidden": false,
               "index": 2
             }
           ],

@@ -61,6 +61,9 @@ export let defineProjections = function (modelClass) {
     }, { index: 3, displayMemberPath: 'длительность' }),
     шлагбаум: belongsTo('i-i-s-novoe-prilozhenie-шлагбаум', 'Шлагбаум', {
       номерШлаг: attr('Номер шлагбаума', { index: 6, hidden: true })
-    }, { index: 5, displayMemberPath: 'номерШлаг' })
+    }, { index: 5, displayMemberPath: 'номерШлаг' }),
+    парковка: belongsTo('i-i-s-novoe-prilozhenie-парковка', 'Адрес', {
+      адрес: attr('Адрес', { index: 7 })
+    }, { index: -1, hidden: true })
   });
 };

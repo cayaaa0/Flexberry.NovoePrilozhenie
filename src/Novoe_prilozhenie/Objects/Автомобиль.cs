@@ -34,8 +34,7 @@ namespace IIS.Novoe_prilozhenie
     [View("Автомобиль", new string[] {
             "ГосНомер as \'Гос номер\'",
             "Водитель as \'Водитель\'",
-            "Водитель.ФИО as \'ФИО\'"}, Hidden=new string[] {
-            "Водитель.ФИО"})]
+            "Водитель.ФИО as \'ФИО\'"})]
     [MasterViewDefineAttribute("Автомобиль", "Водитель", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     public class Автомобиль : ICSSoft.STORMNET.DataObject
     {

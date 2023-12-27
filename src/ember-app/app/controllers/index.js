@@ -22,43 +22,43 @@ export default Controller.extend({
             link: 'i-i-s-novoe-prilozhenie-водитель-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-водитель-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-водитель-l.title'),
-            icon: 'edit',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-novoe-prilozhenie-услуга-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-услуга-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-услуга-l.title'),
-            icon: 'file',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-novoe-prilozhenie-шлагбаум-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-шлагбаум-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-шлагбаум-l.title'),
-            icon: 'book',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-novoe-prilozhenie-парковка-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-парковка-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-парковка-l.title'),
-            icon: 'phone',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-novoe-prilozhenie-автомобиль-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-автомобиль-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-автомобиль-l.title'),
-            icon: 'table',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-novoe-prilozhenie-терминал-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-терминал-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-терминал-l.title'),
-            icon: 'folder open',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-novoe-prilozhenie-парк-место-l',
             caption: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-парк-место-l.caption'),
             title: i18n.t('forms.application.sitemap.паркомат.i-i-s-novoe-prilozhenie-парк-место-l.title'),
-            icon: 'paperclip',
+            icon: 'chart line',
             children: null
           }]
         }
