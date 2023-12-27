@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISNovoe_prilozhenieВодитель",
+  "modelName": "i-i-s-novoe-prilozhenie-водитель",
+  "className": "Водитель",
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерВод",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "телефон",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Водитель",
+      "modelName": "i-i-s-novoe-prilozhenie-водитель",
+      "attrs": [
+        {
+          "name": "номерВод",
+          "caption": "ID водителя",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "Водитель",
+      "modelName": "i-i-s-novoe-prilozhenie-водитель",
+      "attrs": [
+        {
+          "name": "номерВод",
+          "caption": "ID водителя",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

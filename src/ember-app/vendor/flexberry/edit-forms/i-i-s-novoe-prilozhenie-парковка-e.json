@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Парковка",
+  "name": "IISNovoe_prilozhenieПарковкаE",
+  "className": "ПарковкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-парковка",
+      "modelProjection": "Парковка"
+    }
+  ]
+}

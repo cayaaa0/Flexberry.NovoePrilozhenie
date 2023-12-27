@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novoe-prilozhenie-шлагбаум-e",
+  "editForm": "i-i-s-novoe-prilozhenie-шлагбаум-e",
+  "external": false,
+  "caption": "Шлагбаум",
+  "name": "IISNovoe_prilozhenieШлагбаумL",
+  "className": "ШлагбаумL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-шлагбаум",
+      "modelProjection": "Шлагбаум"
+    }
+  ]
+}

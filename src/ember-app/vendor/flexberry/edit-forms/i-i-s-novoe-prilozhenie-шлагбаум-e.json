@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Шлагбаум",
+  "name": "IISNovoe_prilozhenieШлагбаумE",
+  "className": "ШлагбаумE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-шлагбаум",
+      "modelProjection": "Шлагбаум"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+﻿{
+  "name": "IISNovoe_prilozhenieПаркомат",
+  "modelName": "i-i-s-novoe-prilozhenie-паркомат",
+  "className": "Паркомат",
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерПарк",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "терминал",
+      "relatedTo": "i-i-s-novoe-prilozhenie-терминал",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-novoe-prilozhenie-услуга",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "шлагбаум",
+      "relatedTo": "i-i-s-novoe-prilozhenie-шлагбаум",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "парковка",
+      "relatedTo": "i-i-s-novoe-prilozhenie-парковка",
+      "inverse": "паркомат"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Паркомат",
+      "modelName": "i-i-s-novoe-prilozhenie-паркомат",
+      "attrs": [
+        {
+          "name": "номерПарк",
+          "caption": "ID паркомата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "НомерТер",
+          "lookupValueField": "номерТер",
+          "relationName": "Терминал",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерТер",
+              "caption": "Номер терминала",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Терминал",
+          "name": "терминал",
+          "relatedTo": "i-i-s-novoe-prilozhenie-терминал",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Длительность",
+          "lookupValueField": "длительность",
+          "relationName": "Услуга",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "длительность",
+              "caption": "Длительность",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Услуга",
+          "name": "услуга",
+          "relatedTo": "i-i-s-novoe-prilozhenie-услуга",
+          "inverse": null
+        },
+        {
+          "lookupValue": "НомерШлаг",
+          "lookupValueField": "номерШлаг",
+          "relationName": "Шлагбаум",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерШлаг",
+              "caption": "Номер шлагбаума",
+              "hidden": true,
+              "index": 6
+            }
+          ],
+          "index": 5,
+          "type": "standard",
+          "caption": "Шлагбаум",
+          "name": "шлагбаум",
+          "relatedTo": "i-i-s-novoe-prilozhenie-шлагбаум",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

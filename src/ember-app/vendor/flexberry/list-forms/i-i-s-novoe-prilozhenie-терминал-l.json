@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novoe-prilozhenie-терминал-e",
+  "editForm": "i-i-s-novoe-prilozhenie-терминал-e",
+  "external": false,
+  "caption": "Терминал",
+  "name": "IISNovoe_prilozhenieТерминалL",
+  "className": "ТерминалL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-терминал",
+      "modelProjection": "Терминал"
+    }
+  ]
+}

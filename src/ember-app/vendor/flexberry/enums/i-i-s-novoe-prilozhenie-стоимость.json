@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "className": "Стоимость",
+  "enumObjects": {
+    "1": "бесплатно",
+    "2": "150",
+    "3": "300"
+  }
+}

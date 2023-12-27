@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISNovoe_prilozhenieШлагбаум",
+  "modelName": "i-i-s-novoe-prilozhenie-шлагбаум",
+  "className": "Шлагбаум",
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерШлаг",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "положение",
+      "type": "i-i-s-novoe-prilozhenie-положения",
+      "flexberryType": "Положения",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Шлагбаум",
+      "modelName": "i-i-s-novoe-prilozhenie-шлагбаум",
+      "attrs": [
+        {
+          "name": "номерШлаг",
+          "caption": "ID шлагбаума",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "положение",
+          "caption": "Положение шлагбаума",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "Шлагбаум",
+      "modelName": "i-i-s-novoe-prilozhenie-шлагбаум",
+      "attrs": [
+        {
+          "name": "номерШлаг",
+          "caption": "ID шлагбаума",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "положение",
+          "caption": "Положение шлагбаума",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

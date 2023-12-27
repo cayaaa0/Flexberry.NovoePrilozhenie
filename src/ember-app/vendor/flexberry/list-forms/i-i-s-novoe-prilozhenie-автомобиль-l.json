@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novoe-prilozhenie-автомобиль-e",
+  "editForm": "i-i-s-novoe-prilozhenie-автомобиль-e",
+  "external": false,
+  "caption": "Автомобиль",
+  "name": "IISNovoe_prilozhenieАвтомобильL",
+  "className": "АвтомобильL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-автомобиль",
+      "modelProjection": "Автомобиль"
+    }
+  ]
+}

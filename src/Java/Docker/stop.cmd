@@ -1,0 +1,1 @@
+docker-compose -p novoe_prilozhenie-java down

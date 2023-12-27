@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "className": "Статусы",
+  "enumObjects": {
+    "1": "свободно",
+    "2": "занято"
+  }
+}

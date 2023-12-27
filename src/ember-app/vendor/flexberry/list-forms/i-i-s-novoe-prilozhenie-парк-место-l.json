@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novoe-prilozhenie-парк-место-e",
+  "editForm": "i-i-s-novoe-prilozhenie-парк-место-e",
+  "external": false,
+  "caption": "Парк место",
+  "name": "IISNovoe_prilozhenieПаркМестоL",
+  "className": "ПаркМестоL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-парк-место",
+      "modelProjection": "ПаркМесто"
+    }
+  ]
+}

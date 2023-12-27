@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Водитель",
+      "projection": "Водитель",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Автомобиль",
+  "name": "IISNovoe_prilozhenieАвтомобильE",
+  "className": "АвтомобильE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-автомобиль",
+      "modelProjection": "Автомобиль"
+    }
+  ]
+}

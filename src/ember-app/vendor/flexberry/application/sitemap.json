@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Novoe_prilozhenie",
+  "applicationTitle": "Novoe_prilozhenie",
+  "items": [
+    {
+      "link": null,
+      "menuName": "паркомат",
+      "caption": "Паркомат",
+      "title": "Паркомат",
+      "children": [
+        {
+          "link": "i-i-s-novoe-prilozhenie-водитель-l",
+          "menuName": null,
+          "caption": "Водитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novoe-prilozhenie-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novoe-prilozhenie-шлагбаум-l",
+          "menuName": null,
+          "caption": "Шлагбаум",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novoe-prilozhenie-парковка-l",
+          "menuName": null,
+          "caption": "Парковка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novoe-prilozhenie-автомобиль-l",
+          "menuName": null,
+          "caption": "Автомобиль",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novoe-prilozhenie-терминал-l",
+          "menuName": null,
+          "caption": "Терминал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novoe-prilozhenie-парк-место-l",
+          "menuName": null,
+          "caption": "Парк место",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

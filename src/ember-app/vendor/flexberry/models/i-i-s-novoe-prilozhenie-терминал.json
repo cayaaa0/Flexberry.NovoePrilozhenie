@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISNovoe_prilozhenieТерминал",
+  "modelName": "i-i-s-novoe-prilozhenie-терминал",
+  "className": "Терминал",
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерТер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Терминал",
+      "modelName": "i-i-s-novoe-prilozhenie-терминал",
+      "attrs": [
+        {
+          "name": "номерТер",
+          "caption": "ID терминала",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "Терминал",
+      "modelName": "i-i-s-novoe-prilozhenie-терминал",
+      "attrs": [
+        {
+          "name": "номерТер",
+          "caption": "ID терминала",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

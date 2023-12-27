@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novoe-prilozhenie-водитель-e",
+  "editForm": "i-i-s-novoe-prilozhenie-водитель-e",
+  "external": false,
+  "caption": "Водитель",
+  "name": "IISNovoe_prilozhenieВодительL",
+  "className": "ВодительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novoe-prilozhenie-водитель",
+      "modelProjection": "Водитель"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+﻿{
+  "name": "IISNovoe_prilozhenieУслуга",
+  "modelName": "i-i-s-novoe-prilozhenie-услуга",
+  "className": "Услуга",
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "длительность",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "i-i-s-novoe-prilozhenie-услуги",
+      "flexberryType": "Услуги",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерУсл",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "стоимость",
+      "type": "i-i-s-novoe-prilozhenie-стоимость",
+      "flexberryType": "Стоимость",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "запОбУсл",
+      "relatedTo": "i-i-s-novoe-prilozhenie-зап-об-усл",
+      "inverse": "услуга"
+    }
+  ],
+  "projections": [
+    {
+      "name": "Услуга",
+      "modelName": "i-i-s-novoe-prilozhenie-услуга",
+      "attrs": [
+        {
+          "name": "номерУсл",
+          "caption": "ID услуги",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "длительность",
+          "caption": "Длительность",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "Услуга",
+      "modelName": "i-i-s-novoe-prilozhenie-услуга",
+      "attrs": [
+        {
+          "name": "номерУсл",
+          "caption": "ID услуги",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "длительность",
+          "caption": "Длительность",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ЗапОбУслE",
+          "caption": "Запись об услуге",
+          "name": "запОбУсл",
+          "relatedTo": "i-i-s-novoe-prilozhenie-зап-об-усл",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

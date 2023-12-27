@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "className": "Положения",
+  "enumObjects": {
+    "1": "открыт",
+    "2": "закрыт"
+  }
+}

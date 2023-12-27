@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Novoe_prilozhenie",
+  "className": "Услуги",
+  "enumObjects": {
+    "1": "краткосрочная",
+    "2": "среднесрочная",
+    "3": "долгосрочная"
+  }
+}
